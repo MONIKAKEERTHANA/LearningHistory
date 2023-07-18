@@ -14,4 +14,11 @@ ls -a //shows all hidden files, giles with . are hidden files//
 6.)Making the first changes
 touch filename
 git status // to know the changes made//
+untracked files - those history is not saved in project(all red files)
+git add . or git add nameofthefile
+git commit -m "message you wanted to add" // m for message
+7.)Adding data to file:
+vi filename
+:wq to exit
+cat filename
 
