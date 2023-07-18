@@ -5,3 +5,13 @@ mainting history of project
 which person, what changes are done.
 3.) downloading git
 run git in cmd and check if it is installed or not
+4.) basic kinux commands:
+ls
+mkdir filename
+5.)Intializing git repository
+git init - for creating a folder where git stores all the history
+ls -a //shows all hidden files, giles with . are hidden files//
+6.)Making the first changes
+touch filename
+git status // to know the changes made//
+
