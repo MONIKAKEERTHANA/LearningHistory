@@ -21,4 +21,4 @@ git commit -m "message you wanted to add" // m for message
 vi filename
 :wq to exit
 cat filename // to display the contents of the file//
-
+8.)Removing changes from stage
