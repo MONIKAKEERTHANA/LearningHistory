@@ -20,5 +20,5 @@ git commit -m "message you wanted to add" // m for message
 7.)Adding data to file:
 vi filename
 :wq to exit
-cat filename
+cat filename // to display the contents of the file//
 
