@@ -59,4 +59,11 @@ click on new repository
 give a name for repository
 you can choose public or private
 and click on create repostiory
+16) connecitng remote repository to local repository
+git remote add origin urloftherepository
+remote - means we are working with urls
+add - means adding a new url
+origin - what is the name of the url that you are going to add
+// all the repostiory that are in your personal account will have origin as name
+git remote -v //shows all urls attached to this folder
 
