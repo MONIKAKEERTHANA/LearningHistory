@@ -50,4 +50,8 @@ git stash //don't want to commit changes and don't want to loose it
 git log
 13)popping stash
 git stash pop
+14)clearing stash
+git add .
+git stash
+git stash clear
 
