@@ -54,4 +54,9 @@ git stash pop
 git add .
 git stash
 git stash clear
+15) starting github and creating a new repository
+click on new repository
+give a name for repository
+you can choose public or private
+and click on create repostiory
 
