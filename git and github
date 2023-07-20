@@ -30,3 +30,4 @@ rm -rf filename.txt
 git add .
 git commit -m "message"
 git log
+11)Removing a commit from the history of project
