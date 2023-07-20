@@ -99,5 +99,8 @@ git push origin master
 23) working with existing projects
 why fork and how to fork?
 use the fork option as we don't have access to existing project, we can copy the same project in our account using the fork option
+24) cloning the forked project to local
+git clone url
+25)What is upstream and adding it to local
 
 
