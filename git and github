@@ -31,3 +31,9 @@ git add .
 git commit -m "message"
 git log
 11)Removing a commit from the history of project
+whatever the commit hashid we copy, all the above commits above it will be removed
+git log
+git reset hashid
+git log
+the commits that are removed will be unstaged area
+git status
