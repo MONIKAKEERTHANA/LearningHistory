@@ -1,1 +1,69 @@
 
+repository = folder where changes are saved.
+why are we using?
+mainting history of project
+which person, what changes are done.
+3.) downloading git
+run git in cmd and check if it is installed or not
+4.) basic kinux commands:
+ls
+mkdir filename
+5.)Intializing git repository
+git init - for creating a folder where git stores all the history
+ls -a //shows all hidden files, giles with . are hidden files//
+6.)Making the first changes
+touch filename
+git status // to know the changes made//
+untracked files - those history is not saved in project(all red files)
+git add . or git add nameofthefile
+git commit -m "message you wanted to add" // m for message
+7.)Adding data to file:
+vi filename
+:wq to exit
+cat filename // to display the contents of the file//
+8.)Removing changes from stage
+git restore --staged filenames.txt
+9.)Viewing all the history of project
+git log
+10.)Making few more commits
+rm -rf filename.txt
+git add .
+git commit -m "message"
+git log
+11)Removing a commit from the history of project
+whatever the commit hashid we copy, all the above commits above it will be removed
+git log
+git reset hashid
+git log
+the commits that are removed will be unstaged area
+git status
+12)Stashing changes
+git add .
+git status
+touch surnames.txt
+git add .
+git status
+vi surnames.txt
+git add .
+git status
+git stash //don't want to commit changes and don't want to loose it
+git log
+13)popping stash
+git stash pop
+14)clearing stash
+git add .
+git stash
+git stash clear
+15) starting github and creating a new repository
+click on new repository
+give a name for repository
+you can choose public or private
+and click on create repostiory
+16) connecitng remote repository to local repository
+git remote add origin urloftherepository
+remote - means we are working with urls
+add - means adding a new url
+origin - what is the name of the url that you are going to add
+// all the repostiory that are in your personal account will have origin as name
+git remote -v //shows all urls attached to this folder
+
