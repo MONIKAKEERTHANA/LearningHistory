@@ -94,5 +94,7 @@ git merge branchname
 git checkout feature
 git checkout main
 merging happens via a pullrequest
+22) pushing new changes to main branch
+git push origin master
 
 
