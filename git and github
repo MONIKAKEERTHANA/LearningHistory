@@ -89,6 +89,10 @@ git checkout branchname
 git commit
 git checkout main
 git commit
-
+21)merging branch to main branch
+git merge branchname
+git checkout feature
+git checkout main
+merging happens via a pullrequest
 
 
