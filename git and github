@@ -66,4 +66,19 @@ add - means adding a new url
 origin - what is the name of the url that you are going to add
 // all the repostiory that are in your personal account will have origin as name
 git remote -v //shows all urls attached to this folder
+17) Pushing changes to local repository
+git push origin branch // git push origin master
+push - push the changes
+origin - url
+branch -which branch you have to push
+18) what are branches
+touch hotel.txt
+git add .
+git commit -m "hotel.txt is added"
+touch rollno.txt
+git add .
+git commit -m "rollno.txt is added"
+directed acyclic graph
+  by default the branch is called master or main
+
 
