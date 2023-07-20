@@ -83,5 +83,12 @@ directed acyclic graph
 19)Use of branches
 you should never commit on main branch
 our code which is not finalized yet may contain errors, that's why you never commit changes directly to main branch
+20) Learn git branching ( making a new branch and switching to it)
+git branch branchname // git branch feature
+git checkout branchname
+git commit
+git checkout main
+git commit
+
 
 
