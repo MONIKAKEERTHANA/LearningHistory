@@ -37,3 +37,15 @@ git reset hashid
 git log
 the commits that are removed will be unstaged area
 git status
+12)Stashing changes
+git add .
+git status
+touch surnames.txt
+git add .
+git status
+vi surnames.txt
+git add .
+git status
+git stash //don't want to commit changes and don't want to loose it
+git log
+
