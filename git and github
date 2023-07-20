@@ -48,4 +48,6 @@ git add .
 git status
 git stash //don't want to commit changes and don't want to loose it
 git log
+13)popping stash
+git stash pop
 
