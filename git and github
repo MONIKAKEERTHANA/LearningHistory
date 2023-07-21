@@ -131,5 +131,9 @@ git reset --hard upstream/main
 git log
 git push origin main
 git pull upstream main
+31)squashing your commits
+whenever you create new branch it is created from head
+git branch branchname
+git checkout branchname// now head is pointing to the new branch
 
 
