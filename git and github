@@ -112,5 +112,37 @@ git checkout monika
 git add .
 git commit -m "message"
 git log
+27) Never commit on main branch and creating your first pull request
+for any new features you want to add, create a new pull request to merge it into main branch
+28) Removing a commit from the pull request by force pushing
+git log
+git reset hashid
+git status
+git add .
+git stash
+git push origin monika - f
+29) merging a pull request
+30)Making forked project even with main project
+we can fetch upstream button
+git status
+git log
+git fetch --all --prune 
+git reset --hard upstream/main
+git log
+git push origin main
+git pull upstream main
+31)squashing your commits
+whenever you create new branch it is created from head
+git branch branchname
+git checkout branchname// now head is pointing to the new branch
+32)using the rebase command
+git log
+git rebase -i hashid
+-i stands for interactive command
+all the above commits, we can either pick or squash
+all the squash commits are merged into one
+git log
+33)merge conflicts and how to resolve them?
+
 
 
