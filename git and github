@@ -112,5 +112,7 @@ git checkout monika
 git add .
 git commit -m "message"
 git log
+27) Never commit on main branch and creating your first pull request
+for any new features you want to add, create a new pull request to merge it into main branch
 
 
