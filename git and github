@@ -135,5 +135,13 @@ git pull upstream main
 whenever you create new branch it is created from head
 git branch branchname
 git checkout branchname// now head is pointing to the new branch
+32)using the rebase command
+git log
+git rebase -i hashid
+-i stands for interactive command
+all the above commits, we can either pick or squash
+all the squash commits are merged into one
+git log
+
 
 
