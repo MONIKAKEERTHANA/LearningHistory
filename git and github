@@ -142,6 +142,7 @@ git rebase -i hashid
 all the above commits, we can either pick or squash
 all the squash commits are merged into one
 git log
+33)merge conflicts and how to resolve them?
 
 
 
