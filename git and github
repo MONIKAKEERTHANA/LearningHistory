@@ -121,5 +121,15 @@ git status
 git add .
 git stash
 git push origin monika - f
+29) merging a pull request
+30)Making forked project even with main project
+we can fetch upstream button
+git status
+git log
+git fetch --all --prune 
+git reset --hard upstream/main
+git log
+git push origin main
+git pull upstream main
 
 
