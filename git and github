@@ -104,5 +104,13 @@ git clone url
 25)What is upstream and adding it to local
 git remote add upstream url
 origin is the personal, upstream is the where we have forked it
+26) what is pull request?
+vi readme.txt
+git status
+git branch monika //always create changes in new branch
+git checkout monika
+git add .
+git commit -m "message"
+git log
 
 
