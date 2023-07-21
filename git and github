@@ -102,5 +102,7 @@ use the fork option as we don't have access to existing project, we can copy the
 24) cloning the forked project to local
 git clone url
 25)What is upstream and adding it to local
+git remote add upstream url
+origin is the personal, upstream is the where we have forked it
 
 
